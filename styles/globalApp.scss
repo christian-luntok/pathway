@@ -1,0 +1,10 @@
+@use 'mixins.scss' as *;
+
+.wrap {
+    max-width:1280px;
+    width: 100%;
+    &-px {
+        margin: 0 rem(32);
+    }
+}
+  
