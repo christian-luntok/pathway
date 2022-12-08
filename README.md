@@ -13,7 +13,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ---
 
-![Pathway Preview](https://github.com/christian-luntok/pathway/tree/main/public/pathway-0-1.png?raw=true)
+![Pathway Preview](https://github.com/christian-luntok/pathway/blob/main/public/pathway-0-1.png?raw=true)
 
 ---
 #### Getting Started
