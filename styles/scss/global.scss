@@ -11,16 +11,18 @@
 =========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
 
 // Core Declarations
 @import "core/variables";
 
 // Core Components
-// @import "core/components/";
+@import "core/general";
+@import "core/components/header";
+
+
+// Core CSS Reset/MISCS
 @import "core/misc";
-@import "core/custom-global";
 
 // Core Plugins
 // @import "plugins/plugin-tailwind";
