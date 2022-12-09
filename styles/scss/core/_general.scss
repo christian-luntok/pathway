@@ -3,6 +3,7 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
+  letter-spacing: rem(-0.075);
 }
 
 .wrap {
@@ -10,6 +11,6 @@ body {
   width: 100%;
   margin: 0 auto;
   &-px {
-    margin: 0 rem(32);
+    padding: 0 rem(32);
   }
 }
