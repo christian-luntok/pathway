@@ -1,19 +1,15 @@
-
 html {
-
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .wrap {
-    max-width:1280px;
-    width: 100%;
-    margin: 0 auto;
-    &-px {
-        margin: 0 rem(32);
-    }
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  &-px {
+    margin: 0 rem(32);
+  }
 }
-  
-
