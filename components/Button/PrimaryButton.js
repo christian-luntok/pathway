@@ -13,9 +13,7 @@ const PrimaryButton = ({text, icon, link}) => {
                 icon?.length > 0 
                     ? (
                         <Icon icon={icon}/>    
-                    ) : (
-                        ''
-                    )
+                    ) : null
             }
         </button>
     )
