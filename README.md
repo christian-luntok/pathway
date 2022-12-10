@@ -16,7 +16,7 @@ See Live Demo: [Demo Link](https://pathway-cl.vercel.app/)
 * Lightning Fast
 * Mobile Responsive
 * 20+ Components
-* 6 Pages: Landing, About, Use Case, 
+* 6 Pages: Landing, About, Use Case, Company, Pricing
 * SEO setup: meta tags, twitter/facebook open graph - image preview, etc.
 
 You can easiliy make use of the components and customize the code to mix and match to suit your needs. -->
