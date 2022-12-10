@@ -1,23 +1,38 @@
 import { Icon } from '@iconify/react'
-import PrimaryButton from './Button/PrimaryButton'
+import PrimaryButton from '@components/Button/PrimaryButton'
+import SecondaryButton from '@components/Button/SecondaryButton'
 
 const Header = () => {
     return (
-        <div>
-            <div className="text-3xl font-bold underline my-12 wrap">
-                <h2>Header</h2>
+        <header id="header" className="wrap wrap-px">
+            <div className="header-container py-4 flex items-center">
+                <div className="flex items-center mr-6">
+                    <a href="/" className="">
+                        <img 
+                            src="/icons/Pathway.svg" 
+                            alt="logo"
+                            className="h-6 w-auto"
+                        />
+                    </a>
+                </div>
+                <nav className="header-nav text-black/60">
+                    <ul className="flex font-medium gap-6">
+                        <li><a href="">Use cases</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="">Company</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+                <div className="button-container flex flex-wrap gap-4 ml-auto">
+                    <SecondaryButton 
+                        text="Login"
+                    />
+                    <PrimaryButton 
+                        text="Sign Up"
+                    />
+                </div>
             </div>
-            <Icon icon="material-symbols:arrow-right-alt" />
-            <PrimaryButton 
-                     text="Get Started"
-                     link="/"
-            />
-            <PrimaryButton 
-                     text="About"
-                     link="/"
-                     icon="material-symbols:arrow-right-alt"
-            />
-        </div>
+        </header>
     )
 }
 
