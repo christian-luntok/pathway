@@ -21,13 +21,13 @@ const Header = () => {
                 </div>
                 <Nav />
                 <div className="button-container hidden md:flex flex-wrap gap-4 ml-auto">
-                    <SecondaryButton 
-                        text="Login"
-                        link="/login"
-                    />
                     <PrimaryButton 
                         text="Sign Up"
                         link="/sign-up"
+                    />
+                    <SecondaryButton 
+                        text="Login"
+                        link="/login"
                     />
                 </div>
             </div>
