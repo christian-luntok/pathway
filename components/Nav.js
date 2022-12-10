@@ -7,8 +7,7 @@ const navigation = [
   { name: "Use cases", href: "/use-cases" },
   { name: "Pricing", href: "/pricing" },
   { name: "Company", href: "/company" },
-  { name: "About", href: "/about" },
-  { name: "Home", href: '/'}
+  { name: "About", href: "/about" }
 ];
 
 const Nav = () => {
