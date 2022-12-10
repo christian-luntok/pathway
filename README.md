@@ -1,7 +1,7 @@
 # Pathway - A NextJS Tailwind CSS SAAS Landing Page
 ### An awesome landing page template optimized for you get those clicks into sales!
 
-See Live Demo: //
+See Live Demo: [Demo Link](https://pathway-cl.vercel.app/)
 --- 
 
 #### DOCUMENTATION
