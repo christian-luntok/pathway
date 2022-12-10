@@ -1,6 +1,7 @@
 import { Icon } from '@iconify/react'
 import { useRouter } from 'next/router'
 
+// You can get icons from iconify - just add the name on the Primary Button Props
 const PrimaryButton = ({text, icon, link}) => {
     const router = useRouter()
     return (

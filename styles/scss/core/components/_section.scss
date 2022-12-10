@@ -1,0 +1,21 @@
+
+.section-container {
+
+}
+
+.section-content-container {
+    .section-content {
+        max-width:rem(768);
+    }
+}
+
+.image-container {
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    &__full {
+        width: 100%;
+    }
+}
