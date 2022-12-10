@@ -36,7 +36,10 @@ const Nav = () => {
                                     passHref
                                     key={item.name}
                                     href={item.href}
-                                    className={ router.pathname === item.href ? 'block py-2 pl-3 pr-4 text-white bg-primary-700 rounded md:bg-transparent md:text-black md:hover:text-primary-500 md:p-0 md:p-0' : 'block py-2 pl-3 pr-4 text-blac rounded md:bg-transparent md:text-black md:hover:text-primary-500 md:p-0 md:p-0'}
+                                    className={ router.pathname === item.href ? 
+                                        'block py-2 pl-3 pr-4 text-white bg-primary-700 rounded md:bg-transparent md:text-black md:hover:text-primary-500 md:p-0 md:p-0' 
+                                        : 
+                                        'block py-2 pl-3 pr-4 text-blac rounded md:bg-transparent md:text-black md:hover:text-primary-500 md:p-0 md:p-0'}
                                 >
                                     {item.name}
                                 </Link>
