@@ -13,7 +13,7 @@ const SEO = ({title, description, keywords }) => {
     return (
         <Head>
             <meta charSet="utf-8" />
-            <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="description" content={metaDescription} />
             <meta name="keywords" content={metaKeywords} />
