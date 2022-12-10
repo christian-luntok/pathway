@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[618],{4020:function(n,e,s){(window.__NEXT_P=window.__NEXT_P||[]).push(["/use-cases",function(){return s(9470)}])},9470:function(n,e,s){"use strict";s.r(e);var u=s(5893);let _=()=>(0,u.jsx)("h1",{children:"Use Cases"});e.default=_}},function(n){n.O(0,[774,888,179],function(){return n(n.s=4020)}),_N_E=n.O()}]);
