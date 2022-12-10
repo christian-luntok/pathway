@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[639],{3326:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/company",function(){return _(8525)}])},8525:function(n,u,_){"use strict";_.r(u);var t=_(5893);let c=()=>(0,t.jsx)("h1",{children:"Company"});u.default=c}},function(n){n.O(0,[774,888,179],function(){return n(n.s=3326)}),_N_E=n.O()}]);
