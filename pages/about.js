@@ -1,4 +1,3 @@
-import Section from "@components/Section/Section"
 
 const About = () => {
     return (
