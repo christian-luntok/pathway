@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
@@ -12,19 +12,21 @@ const navigation = [
 
 const Nav = () => {
   const router = useRouter();
-  const menuToggle = useRef(null);
-  const menu = useRef(null);
+  const [isNavOpen, setIsNavOpen] = useState(false)
+  // const menuToggle = useRef(null);
+  // const menu = useRef(null);
 
-  const toggleMenu = () => {
-    menu.current.classList.toggle("hidden");
-  };
+  // const toggleMenu = () => {
+  //   menu.current.classList.toggle("hidden");
+  // };
 
   return (
     <nav className="header-nav text-black/60">
       <div className="container">
         <button
-          ref={menuToggle}
-          onClick={toggleMenu}
+          // ref={menuToggle}
+          // onClick={toggleMenu}
+          onClick={() => setIsNavOpen(!isNavOpen)}
           data-collapse-toggle="navbar-default"
           type="button"
           className="inline-flex items-center p-2 ml-3 text-black md:hidden hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-primary-200"
@@ -35,8 +37,8 @@ const Nav = () => {
           <Icon icon="material-symbols:menu-rounded" className="h-6 w-auto" />
         </button>
         <div
-          ref={menu}
-          className="menu hidden w-full md:block md:w-auto absolute w-full left-0 md:w-auto md:relative "
+          // ref={menu}
+          className={` ${isNavOpen ? 'block' : 'hidden'} menu w-full md:block md:w-auto absolute w-full left-0 md:w-auto md:relative`}
           id="navbar-default"
         >
           <ul className="my-4 md:my-0 p-4 md:p-0 flex font-medium gap-6 flex-col border border-gray-100 bg-gray-50 md:flex-row md:mt-0 md:font-medium md:border-0 md:bg-white">
