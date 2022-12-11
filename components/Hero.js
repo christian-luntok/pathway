@@ -1,22 +1,30 @@
 import SectionContent from "@components/Section/SectionContent"
 import ButtonGroup from "@components/ButtonGroup"
 import SectionImage from "@components/Section/SectionImage"
+import BadgeGroup from "@components/BadgeGroup"
 
 
 const Hero = () => {
+    const alignment = "center"
 
     return (
         <section className="hero-container">
             <div className="hero-content-container py-16 ">
+                <BadgeGroup 
+                    context="Hey!"
+                    message="Welcome to this site, have a look at our content!"
+                    // icon="ph:arrow-right-bold"
+                    // link="/about"
+                    alignment={alignment}
+                />
                 <SectionContent 
                     title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                     content = "Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi."
-                    subheading = "Sub Heading"
-                    alignment = "center"
+                    alignment = {alignment}
                     isBigHeader = {true}
                 />
                 <ButtonGroup 
-                    wrap = "wrap-sm wrap-px"
+                    wrap = "wrap-sm"
                     hasPrimary = {true}
                     primaryText = "About"
                     primaryLink = "/about"
@@ -24,7 +32,7 @@ const Hero = () => {
                     hasSecondary = {true}
                     secondaryText = "Company"
                     secondaryLink = "/company"
-                    alignment="center"
+                    alignment={alignment}
                 />
             </div>
             <SectionImage 
