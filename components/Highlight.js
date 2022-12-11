@@ -8,10 +8,11 @@ const DATA = [
       Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
       Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
       Ipsum dolor culpa dolor ea.`,
-      image: 'images/highlight-1.jpeg',
+      image: 'images/highlight-1.jpg',
       imageAltTag: 'highlight-1',
-      icon: '',
-      link: '',
+      icon: 'ph:lightning',
+      link: '/pricing',
+      linkTitle: 'Pricing',
       reversed: false
     },
     {
@@ -20,10 +21,11 @@ const DATA = [
       Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
       Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
       Ipsum dolor culpa dolor ea.`,
-      image: 'images/highlight-2.jpeg',
+      image: 'images/highlight-2.jpg',
       imageAltTag: 'highlight-2',
-      icon: '',
-      link: '',
+      icon: 'lucide:mouse-pointer',
+      link: '/get-started',
+      linkTitle: 'Get Started',
       reversed: true
     },
     {
@@ -32,10 +34,11 @@ const DATA = [
       Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
       Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
       Ipsum dolor culpa dolor ea.`,
-      image: 'images/highlight-3.jpeg',
+      image: 'images/highlight-3.jpg',
       imageAltTag: 'highlight-3',
-      icon: '',
-      link: '',
+      icon: 'ph:lightning',
+      link: '/about',
+      linkTitle: 'Learn More',
       reversed: false
     }
   ]
@@ -65,7 +68,21 @@ const Highlight = () => {
                 />
             </div>
             <div className="highlight-image-container">
-                <SectionHighlight />
+                {
+                  DATA.map( item => (
+                    <SectionHighlight 
+                        key = { item.key }
+                        title = { item.title }
+                        content = { item.content }
+                        image = { item.image }
+                        imageAltTag = { item.imageAltTag }
+                        linkTitle = { item.linkTitle }
+                        link = { item.link }
+                        icon = { item.icon }
+                        isReversed = { item.reversed }
+                    />
+                  ))
+                }
             </div>
         </section>
     )

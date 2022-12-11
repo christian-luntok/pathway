@@ -7,13 +7,13 @@ const SectionContent = ({content, title, subheading, icon, isBigHeader, isRevers
         <section className = {`section-content-container wrap`}>
             <div className={`section-content text-center lg:text-left`}>
                 <SectionTitle 
-                    title = "Lorem Ipsum Title"
+                    title = {title}
                     subheading = {subheading}
                     isBigHeader = {false}
-                    icon = "ph:lightning"
+                    icon = {icon}
                 />
                 <div className="content-container text-black/60">
-                    <p>Suspendisse eu rhoncus augue, nec viverra sem. Sed sollicitudin neque in justo lobortis, ut vehicula mi ultrices. Morbi suscipit eget augue et ultricies.</p>
+                    <p>{content}</p>
                 </div>
             </div>
         </section>
