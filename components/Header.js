@@ -2,6 +2,7 @@ import PrimaryButton from '@components/Button/PrimaryButton'
 import SecondaryButton from '@components/Button/SecondaryButton'
 import Nav from '@components/Nav'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Header = () => {
     return (
@@ -10,10 +11,12 @@ const Header = () => {
                 <div className="flex items-center mr-8">
                     <h1>
                         <Link href="/" className="logo">
-                            <img 
+                            <Image 
                                 src="/icons/Pathway.svg" 
                                 alt="logo"
                                 className="h-6 w-auto"
+                                height="25"
+                                width="100"
                             />
                         </Link>
                         <span className="hidden">Pathway Logo</span>
