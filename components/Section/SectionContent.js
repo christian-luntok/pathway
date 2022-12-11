@@ -4,12 +4,12 @@ import SectionTitle from "@components/Section/SectionTitle"
 
 const SectionContent = ({content, title, subheading, alignment, isBigHeader }) => {
     const alignClass = alignment === 'center' 
-        ? 'text-center justify-center m-auto' : alignment === 'left' 
-        ? 'text-left justify-start mr-auto' : alignment === 'right' 
-        ? 'text-right justify-end ml-auto' : null;
+        ? 'md:text-center md:justify-center m-auto' : alignment === 'left' 
+        ? 'md:text-left md:justify-start mr-auto' : alignment === 'right' 
+        ? 'md:text-right md:justify-end ml-auto' : null;
     return (
         <section className = {`section-content-container wrap wrap-px `}>
-            <div className={`section-content ${ alignClass ? alignClass : null }`}>
+            <div className={`section-content text-center ${ alignClass ? alignClass : '' }`}>
                 <SectionTitle 
                     title = {title}
                     subheading = {subheading}
