@@ -9,6 +9,7 @@ const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, l
                 <div className={`image-container ${ isReversed ? 'order-1 md:order-2' : 'order-1' }`}>
                     <figure className="w-[512px]">
                         <Image 
+                             priority
                              src={image}
                              alt={imageAlt}
                              className={isReversed ? 'ml-auto' : ''}

@@ -6,6 +6,7 @@ const SectionImage = ({src, alt}) => {
         <section className="section-image image-container image-container__full">
             <figure className="w-full">
                 <Image 
+                    priority
                     src={src}
                     alt={alt}
                     height="640"

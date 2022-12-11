@@ -17,6 +17,7 @@ const Header = () => {
                                 className="h-6 w-auto"
                                 height="25"
                                 width="100"
+                                priority
                             />
                         </Link>
                         <span className="hidden">Pathway Logo</span>
