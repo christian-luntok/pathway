@@ -24,7 +24,7 @@ const Hero = () => {
                     isBigHeader = {true}
                 />
                 <ButtonGroup 
-                    wrap = "wrap-sm"
+                    wrap = "wrap-sm wrap-px"
                     hasPrimary = {true}
                     primaryText = "Get Started"
                     primaryLink = "/about"
