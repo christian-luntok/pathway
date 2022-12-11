@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="hero-content-container py-16 ">
                 <BadgeGroup 
                     context="Hey!"
-                    message="Welcome to this site, have a look at our content!"
+                    message="Welcome to this site!"
                     // icon="ph:arrow-right-bold"
                     // link="/about"
                     alignment={alignment}
