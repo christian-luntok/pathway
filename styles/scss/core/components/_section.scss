@@ -22,3 +22,40 @@
         }
     }
 }
+
+.highlight-content-container {
+    .image-container {
+        figure {
+            width: 100%;
+            @screen lg {
+                img {
+                    max-width: rem(512);
+                }
+            }
+            img {
+                aspect-ratio: 1/1;
+            }
+        }
+    }
+    .content-container {
+        width: 100%;
+        h2 {
+            font-size: $h2-size;
+        }
+        @screen xl {
+            width: rem(512);
+        }
+        
+    }
+    .button-container {
+        .buttons {
+            justify-content: center;
+            a {
+                width: auto;
+            }
+            @screen lg {
+                justify-content: inherit;
+            }
+        }
+    }
+}
