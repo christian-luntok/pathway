@@ -6,7 +6,7 @@ const PrimaryButton = ({text, icon, link}) => {
         <Link
             href = { link }
             role ="button"
-            className="flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8 bg-secondary-500 text-white py-[5px] rounded-full hover:bg-secondary-300 transition-all duration-300"
+            className="flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8 bg-secondary-500 text-white py-2 rounded-full hover:bg-secondary-300 transition-all duration-300"
         >
             { text }
             {
