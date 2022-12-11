@@ -42,6 +42,10 @@ Typography
   line-height: $large-h1-size;
 }
 
+.section-title {
+  font-size: $section-title-size;
+}
+
 h1, .h1 {
   font-size: $h1-size;
   line-height: rem(60);
