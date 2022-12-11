@@ -2,7 +2,6 @@ import { Icon } from "@iconify/react"
 
 const SectionTitle = ({title, subheading, isBigHeader, icon}) => {
     const log = isBigHeader ? 'true' : 'false' 
-    console.log(log)
     return (
         <section className="section-title-container">
             {
