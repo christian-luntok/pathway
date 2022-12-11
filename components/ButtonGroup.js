@@ -30,8 +30,8 @@ const ButtonGroup = ({wrap, alignment, hasPrimary, hasSecondary, primaryText, pr
         ? 'justify-start mr-auto' : alignment === 'right' 
         ? 'justify-end ml-auto' : null;
     return ( 
-        <div className="button-container wrap wrap-px">
-            <div className={`buttons ${wrap} gap-4 mt-6 flex flex-wrap ${ alignClass ? alignClass : null }`}>
+        <div className="button-container">
+            <div className={`buttons ${wrap} gap-4 mt-6 flex flex-wrap ${ alignClass ? alignClass : '' }`}>
                 {
                     hasPrimary ? (
                         <PrimaryButton 
