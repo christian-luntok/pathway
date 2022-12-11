@@ -77,7 +77,7 @@ const Highlight = () => {
                         title = { item.title }
                         content = { item.content }
                         image = { item.image }
-                        imageAltTag = { item.imageAltTag }
+                        imageAlt = { item.imageAltTag }
                         linkTitle = { item.linkTitle }
                         link = { item.link }
                         icon = { item.icon }
