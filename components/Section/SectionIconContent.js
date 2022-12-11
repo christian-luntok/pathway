@@ -5,7 +5,7 @@ import SectionTitle from "@components/Section/SectionTitle"
 const SectionContent = ({content, title, subheading, icon, isBigHeader, isReversed }) => {
     return (
         <section className = {`section-content-container wrap`}>
-            <div className={`section-content text-center lg:text-left`}>
+            <div className={`section-content text-center md:text-left`}>
                 <SectionTitle 
                     title = {title}
                     subheading = {subheading}

@@ -43,7 +43,8 @@
             font-size: $h2-size;
         }
         @screen xl {
-            width: rem(512);
+            width: 100%;
+            max-width: rem(512);
         }
         
     }
@@ -53,7 +54,7 @@
             a {
                 width: auto;
             }
-            @screen lg {
+            @screen md {
                 justify-content: inherit;
             }
         }
