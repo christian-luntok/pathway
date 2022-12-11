@@ -36,6 +36,34 @@ module.exports = {
           900: "#0E1115"
         },
         badge: "#F1F5F9",
+      }, fontSize: {
+        'h1' : ['3.5rem', {
+          lineHeight: '3.75rem'
+        }],
+        'h2' : ['2.25rem', {
+          lineHeight: '2.625rem'
+        }],
+        'h3' : ['1.875rem', {
+          lineHeight: '2.25rem'
+        }],
+        'h4' : ['1.5rem', {
+          lineHeight: '2rem'
+        }],
+        'h5' : ['1.25rem', {
+          lineHeight: '1.75rem'
+        }],
+        'h6' : ['1.125rem', {
+          lineHeight: '1.5rem'
+        }],
+        'poster' : ['6rem', {
+          lineHeight: '6rem'
+        }],
+        'large-h1' : ['4.5rem', {
+          lineHeight: '4.5rem'
+        }],
+        'section-title' : ['3rem', {
+          lineHeight: '3rem'
+        }]
       }
     },
   },

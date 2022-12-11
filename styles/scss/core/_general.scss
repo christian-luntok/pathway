@@ -10,6 +10,10 @@ body {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
+  &-sm {
+    max-width: 768px;
+  }
+
   &-px {
     padding-left: rem(32);
     padding-right: rem(32);
@@ -23,11 +27,6 @@ body {
 .wrap-md {
 
 }
-
-.wrap-sm {
-  max-width: 768px;
-}
-
 /*
 Typography
 =================
