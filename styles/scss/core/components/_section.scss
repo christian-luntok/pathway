@@ -16,6 +16,9 @@
         object-fit: cover;
     }
     &__full {
-        width: 100%;
+        img {
+            width: 100%;
+            min-height: rem(256);
+        }
     }
 }
