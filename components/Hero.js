@@ -36,7 +36,7 @@ const Hero = () => {
                 />
             </div>
             <SectionImage 
-                src="images/Hero.jpg"
+                src="/images/Hero.jpg"
                 alt="Hero Image used for Hero Banner"
             />
         </section>

@@ -1,5 +1,6 @@
 import SectionIconContent from "@components/Section/SectionIconContent"
 import ButtonGroup from "@components/ButtonGroup"
+import Image from "next/image"
 
 const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, link, linkTitle }) => {
     return (
@@ -7,10 +8,12 @@ const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, l
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-16">
                 <div className={`image-container ${ isReversed ? 'order-1 md:order-2' : 'order-1' }`}>
                     <figure className="w-[512px]">
-                        <img 
-                            src={image}
-                            alt={imageAlt}
-                            className={isReversed ? 'ml-auto' : ''}
+                        <Image 
+                             src={image}
+                             alt={imageAlt}
+                             className={isReversed ? 'ml-auto' : ''}
+                             width={515}
+                             height={515}
                         />
                     </figure>
                 </div>

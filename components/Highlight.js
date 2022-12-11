@@ -10,7 +10,7 @@ const DATA = [
       Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
       Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
       Ipsum dolor culpa dolor ea.`,
-      image: 'images/highlight-1.jpg',
+      image: '/images/highlight-1.jpg',
       imageAltTag: 'highlight-1',
       icon: 'ph:lightning',
       link: '/pricing',
@@ -23,7 +23,7 @@ const DATA = [
       Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
       Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
       Ipsum dolor culpa dolor ea.`,
-      image: 'images/highlight-2.jpg',
+      image: '/images/highlight-2.jpg',
       imageAltTag: 'highlight-2',
       icon: 'lucide:mouse-pointer',
       link: '/get-started',
@@ -36,7 +36,7 @@ const DATA = [
       Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
       Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
       Ipsum dolor culpa dolor ea.`,
-      image: 'images/highlight-3.jpg',
+      image: '/images/highlight-3.jpg',
       imageAltTag: 'highlight-3',
       icon: 'ph:lightning',
       link: '/about',

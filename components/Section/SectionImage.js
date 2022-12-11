@@ -1,10 +1,11 @@
+import Image from "next/image"
 
 const SectionImage = ({src, alt}) => {
 
     return (
         <section className="section-image image-container image-container__full">
             <figure className="w-full">
-                <img 
+                <Image 
                     src={src}
                     alt={alt}
                     height="640"
