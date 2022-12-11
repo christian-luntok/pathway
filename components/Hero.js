@@ -11,8 +11,8 @@ const Hero = () => {
         <section className="hero-container">
             <div className="hero-content-container py-16 ">
                 <BadgeGroup 
-                    context="Hey!"
-                    message="Welcome to this site!"
+                    context="V 0.1"
+                    message="Welcome to Pathway!"
                     // icon="ph:arrow-right-bold"
                     // link="/about"
                     alignment={alignment}
@@ -26,12 +26,12 @@ const Hero = () => {
                 <ButtonGroup 
                     wrap = "wrap-sm"
                     hasPrimary = {true}
-                    primaryText = "About"
+                    primaryText = "Get Started"
                     primaryLink = "/about"
                     primaryIcon = "ph:arrow-right-bold"
                     hasSecondary = {true}
-                    secondaryText = "Company"
-                    secondaryLink = "/company"
+                    secondaryText = "Contact Us"
+                    secondaryLink = "/contact"
                     alignment={alignment}
                 />
             </div>
