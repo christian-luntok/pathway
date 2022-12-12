@@ -31,9 +31,9 @@ const Feature = () => {
                 <div className="feature-content-container">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-y-0 gap-8">
                         {
-                            DATA.map( item => (
+                            DATA.map( (item, index) => (
                                 <FeatureContent 
-                                    key={item.key}
+                                    key={index}
                                     title={item.title}
                                     content={item.content}
                                     link={item.link}

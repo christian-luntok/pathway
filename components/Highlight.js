@@ -71,9 +71,9 @@ const Highlight = () => {
             </div>
             <div className="highlight-image-container">
                 {
-                  DATA.map( item => (
+                  DATA.map( (item, index)=> (
                     <SectionHighlight 
-                        key = { item.key }
+                        key = { index }
                         title = { item.title }
                         content = { item.content }
                         image = { item.image }

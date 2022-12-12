@@ -52,12 +52,12 @@ const Footer = () => {
                     <div className="footer-links grid grid-cols-1 gap-8 md:grid-cols-12 mb-16">
                         <div className="col-span-2">
                             <ul>
-                            {DATA.slice(0, DATA.length / 2).map(({ label, href, isNew }) => (
-                                    <li className="gap-2">
-                                        <a className="block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={href}>
-                                            {label}
+                            {DATA.slice(0, DATA.length / 2).map( item => (
+                                    <li key={item.label} className="gap-2">
+                                        <a className="block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
+                                            {item.label}
                                             {
-                                                isNew ? (
+                                                item.isNew ? (
                                                     <span className="text-[#475569] text-sm font-medium inline-block ml-2 bg-badge px-2 rounded-2xl">New</span>
                                                 ) : null
                                             }
@@ -68,12 +68,12 @@ const Footer = () => {
                         </div>
                         <div className="col-span-2">
                             <ul>
-                            {DATA.slice(DATA.length / 2).map(({ label, href, isNew }) => (
-                                    <li  className="gap-2">
-                                        <a className="block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={href}>
-                                            {label}
+                            {DATA.slice(DATA.length / 2).map( item => (
+                                    <li key={item.label} className="gap-2">
+                                        <a className="block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
+                                            {item.label}
                                             {
-                                                isNew ? (
+                                                item.isNew ? (
                                                     <span className="text-[#475569] text-sm font-medium inline-block ml-2 bg-badge px-2 rounded-2xl">New</span>
                                                 ) : null
                                             }
