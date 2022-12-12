@@ -54,11 +54,11 @@ const Footer = () => {
                             <ul>
                             {DATA.slice(0, DATA.length / 2).map( item => (
                                     <li key={item.label} className="gap-2">
-                                        <a className="block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
+                                        <a className="font-medium block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
                                             {item.label}
                                             {
                                                 item.isNew ? (
-                                                    <span className="text-[#475569] text-sm font-medium inline-block ml-2 bg-badge px-2 rounded-2xl">New</span>
+                                                    <span className="text-badgeText text-sm font-medium inline-block ml-2 bg-badge px-2 rounded-2xl">New</span>
                                                 ) : null
                                             }
                                         </a>
@@ -70,11 +70,11 @@ const Footer = () => {
                             <ul>
                             {DATA.slice(DATA.length / 2).map( item => (
                                     <li key={item.label} className="gap-2">
-                                        <a className="block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
+                                        <a className="font-medium block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
                                             {item.label}
                                             {
                                                 item.isNew ? (
-                                                    <span className="text-[#475569] text-sm font-medium inline-block ml-2 bg-badge px-2 rounded-2xl">New</span>
+                                                    <span className="text-badgeText text-sm inline-block ml-2 bg-badge px-2 rounded-2xl">New</span>
                                                 ) : null
                                             }
                                         </a>
