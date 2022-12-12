@@ -12,7 +12,8 @@ const SubscribeForm = ({alignment}) => {
     function handleSubmit(event) {
         event.preventDefault()
         alert(`${email} submitted the form. You are now added to mailing list.`)
-      }
+    }
+
     return(
         <div className="form-container">
             <form className={`flex flex-wrap gap-4 ${ alignClass ? alignClass : '' }`} onSubmit={handleSubmit}>
@@ -25,7 +26,7 @@ const SubscribeForm = ({alignment}) => {
                         required
                         onChange={(e) => setEmail(e.target.value)}
                     />
-                    <div class="absolute inset-y-0 left-0 flex items-center pl-3">
+                    <div className="absolute inset-y-0 left-0 flex items-center pl-3">
                         <Icon className="h-5 w-5 text-black/60" icon="ic:outline-email"/>
                     </div>
                 </div>
