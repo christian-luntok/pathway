@@ -19,7 +19,7 @@ const FeatureContent = ({title, content, icon, link, linkTitle }) => {
                     link ? (
                         <Link 
                             href={link}
-                            className="text-[#94A3B8] block mt-4"
+                            className="text-[#94A3B8] hover:text-primary-400 block mt-4 transition-all duration-300"
                         >
                             {linkTitle}
                         </Link>
