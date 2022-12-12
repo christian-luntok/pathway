@@ -31,7 +31,7 @@ const SubscribeForm = ({alignment}) => {
                     </div>
                 </div>
                 <div className="form-input">
-                    <PrimaryButton text="Submit" link="/" />
+                    <PrimaryButton text="Submit" link="/" type="button"/>
                 </div>
             </form>
         </div>
