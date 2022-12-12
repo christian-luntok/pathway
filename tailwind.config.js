@@ -36,6 +36,7 @@ module.exports = {
           900: "#0E1115"
         },
         badge: "#F1F5F9",
+        badgeText: "#475569"
       }, fontSize: {
         'h1' : ['3.5rem', {
           lineHeight: '3.75rem'
