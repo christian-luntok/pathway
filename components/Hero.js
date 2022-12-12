@@ -11,7 +11,7 @@ const Hero = () => {
         <section className="hero-container">
             <div className="hero-content-container py-16 ">
                 <BadgeGroup 
-                    context="V 0.1"
+                    context="V0.1"
                     message="Welcome to Pathway!"
                     // icon="ph:arrow-right-bold"
                     // link="/about"

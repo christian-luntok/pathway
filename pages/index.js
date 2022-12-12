@@ -5,12 +5,12 @@ import CTA from "@components/CallToAction"
 
 const Home = () => {
   return (
-    <section className="">
+    <div className="main-content-container">
         <Hero />
         <Highlight />
         <Feature />
         <CTA />
-    </section>
+    </div>
   )
 }
 
