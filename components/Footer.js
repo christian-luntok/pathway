@@ -48,9 +48,9 @@ const Footer = () => {
     return (
         <footer id="footer">
             <section className="footer-container wrap wrap-px">
-                <div className="footer-content-container py-24">
-                    <div className="footer-links grid grid-cols-1 gap-8 md:grid-cols-12 mb-16">
-                        <div className="col-span-2">
+                <div className="footer-content-container py-16 md:py-24">
+                    <div className="footer-links grid grid-cols-2 gap-8 md:grid-cols-8 lg:grid-cols-12 mb-12 md:mb-16">
+                        <div className="col-span-1 md:col-span-2">
                             <ul>
                             {DATA.slice(0, DATA.length / 2).map( item => (
                                     <li key={item.label} className="gap-2">
@@ -66,7 +66,7 @@ const Footer = () => {
                                 ))}
                             </ul>
                         </div>
-                        <div className="col-span-2">
+                        <div className="col-span-1 md:col-span-2">
                             <ul>
                             {DATA.slice(DATA.length / 2).map( item => (
                                     <li key={item.label} className="gap-2">
