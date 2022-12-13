@@ -32,11 +32,11 @@ const DATA = [
     },
     {
         label: 'Instagram',
-        href: 'instagram.com'
+        href: 'https://www.instagram.com/'
     },
     {
         label: 'Twitter',
-        href: 'twitter.com'
+        href: 'https://twitter.com/'
     }
 ]
 
