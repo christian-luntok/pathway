@@ -11,6 +11,7 @@ const LogoItems = ({logos}) => {
                             src={item.logo}
                             width="110"
                             height="25"
+                            alt={item.title}
                         />
                     </div>
                 ))
