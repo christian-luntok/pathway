@@ -49,7 +49,7 @@ const Highlight = () => {
     const alignment = "left"
     return (
         <section className="highlight-container my-24">
-            <div className="highlight-content pb-16">
+            <div className="highlight-content mb-16">
                 <SectionContent 
                     title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                     subheading = "Subheading"

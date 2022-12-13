@@ -5,7 +5,7 @@ import Image from "next/image"
 const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, link, linkTitle }) => {
     return (
         <section className="highlight-content-container wrap wrap-px">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-16">
                 <div className={`image-container ${ isReversed ? 'order-1 md:order-2' : 'order-1' }`}>
                         {
                             image ? (
