@@ -26,6 +26,9 @@
         img {
             width: 100%;
             min-height: rem(256);
+            max-height: rem(640);
+            height: auto;
+            object-fit: cover;
         }
     }
 }
