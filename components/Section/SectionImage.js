@@ -1,9 +1,9 @@
 import Image from "next/image"
 
-const SectionImage = ({src, alt}) => {
+const SectionImage = ({src, alt, classes}) => {
 
     return (
-        <section className="section-image image-container image-container__full">
+        <section className={`section-image image-container image-container__full ${classes ? classes : ''}`}>
             <figure className="w-full">
                 <Image 
                     priority
