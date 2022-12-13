@@ -5,7 +5,7 @@ const CallToAction = () => {
 
     return (
         <section className="cta-container">
-            <div className="cta-content-container wrap wrap-px py-24">
+            <div className="cta-content-container wrap wrap-px my-24">
                 <SectionContent 
                     title = "Lorem 1,000+ Ipsum Title"
                     content = "Duis malesuada faucibus est. Ut pulvinar gravida sapien sed efficitur."

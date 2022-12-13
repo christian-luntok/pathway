@@ -26,7 +26,7 @@ const DATA = [
 
 const Feature = () => {
     return (
-        <section className="feature-container py-24 bg-badge">
+        <section className="feature-container my-24 py-24 bg-badge">
             <div className="feature-content wrap wrap-px">
                 <div className="feature-content-container">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-y-0 gap-8">
