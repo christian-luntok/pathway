@@ -20,6 +20,7 @@ const Company = () => {
                 hasBlockPadding = {true}
             />
             <SectionImage 
+                classes="my-24"
                 src="/images/Hero4.jpg"
                 alt="Company Page Hero"
             />
