@@ -24,7 +24,7 @@ import SecondaryButton from '@components/Button/SecondaryButton'
     />
  */
 
-const ButtonGroup = ({wrap, alignment, hasPrimary, hasSecondary, primaryText, primaryLink, primaryIcon, secondaryText, secondaryLink, secondaryIcon }) => {
+const ButtonGroup = ({wrap, alignment, hasPrimary, hasSecondary, primaryText, primaryLink, primaryIcon, primaryType, secondaryText, secondaryLink, secondaryIcon, secondaryType}) => {
     const alignClass = alignment === 'center' 
         ? 'justify-center m-auto' : alignment === 'left' 
         ? 'justify-start mr-auto' : alignment === 'right' 
@@ -38,6 +38,7 @@ const ButtonGroup = ({wrap, alignment, hasPrimary, hasSecondary, primaryText, pr
                             text={ primaryText ? primaryText : '' }
                             link={ primaryLink ? primaryLink : '' }
                             icon={ primaryIcon ? primaryIcon : '' }
+                            type={ primaryType ? primaryType : '' }
                         />
                     ) : null
                 }
@@ -48,6 +49,7 @@ const ButtonGroup = ({wrap, alignment, hasPrimary, hasSecondary, primaryText, pr
                             text={ secondaryText ? secondaryText : '' }
                             link={ secondaryLink ? secondaryLink : '' }
                             icon={ secondaryIcon ? secondaryIcon : '' }
+                            type={ secondaryType ? secondaryType : '' }
                         />
                     ) : null
                 }
