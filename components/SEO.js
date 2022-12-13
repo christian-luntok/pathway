@@ -5,7 +5,7 @@ const SEO = ({title, description, keywords }) => {
     // Cuztomize Meta Properties
     // Can create extra props and pass as arguments like title in case you want to change for each page.
     const metaDescription = description ? description : process.env.siteDescription
-    const metaKeywords = process.env.siteKeywords 
+    const metaKeywords = keywords ? keywords : process.env.siteKeywords 
     const siteURL = process.env.siteURL
     const twitterHandle = process.env.twitterHandle
     const imagePreview = `${siteURL}/${process.env.siteImagePreviewUrl}`
@@ -32,7 +32,8 @@ const SEO = ({title, description, keywords }) => {
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
             <link rel="manifest" href="/site.webmanifest" />
-
+            {/* Title */}
+            <title>{title}</title>
         </Head>
     )
 
