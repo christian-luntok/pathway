@@ -15,10 +15,11 @@ const Company = () => {
             />
             <SectionContent 
                 title = "Company"
-                content = "Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi."
                 alignment = "left"
                 hasBlockPadding = {true}
-            />
+            >
+                <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
+            </SectionContent>
             <SectionImage 
                 classes="my-24"
                 src="/images/Hero4.jpg"
@@ -26,11 +27,13 @@ const Company = () => {
             />
             <SectionContent 
                 title = "Lorem Ipsum Dolor"
-                content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
                 alignment = "center"
                 hasBlockPadding = {true}
                 subheading = '“There are no secrets to success. It is the result of preparation, hard work, and learning from failure.”'
-            />
+            >
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            </SectionContent>
             <SectionHighlight 
                 title="Lorem ipsum dolor sit"
                 content="Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi. Mauris fermentum ultrices nunc, vitae scelerisque orci faucibus ac. Maecenas tincidunt tincidunt dolor, eu hendrerit nulla pharetra at."

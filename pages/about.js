@@ -14,20 +14,23 @@ const About = () => {
             />
             <SectionContent 
                 title = "About"
-                content = "Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi."
                 alignment = "left"
                 hasBlockPadding = {true}
-            />
+            >
+                <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
+            </SectionContent>
             <SectionImage 
                 classes="my-24"
                 src="/images/Hero6.jpg"
                 alt="About Page Hero"
             />
             <SectionContent 
-                content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus lorem, accumsan ac metus sed, ullamcorper convallis sem. Sed auctor est tellus, non placerat purus euismod eget. Nulla placerat consequat sagittis. Sed congue ante at vehicula viverra. Cras quis aliquet purus. Mauris fermentum ultrices nunc, vitae scelerisque orci faucibus ac. Maecenas tincidunt tincidunt dolor, eu hendrerit nulla pharetra at. Donec vel condimentum magna."
                 alignment = "left"
                 hasBlockPadding = {true}
-            />
+            >
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus lorem, accumsan ac metus sed, ullamcorper convallis sem. Sed auctor est tellus, non placerat purus euismod eget.</p>
+                <p>Nulla placerat consequat sagittis. Sed congue ante at vehicula viverra. Cras quis aliquet purus. Mauris fermentum ultrices nunc, vitae scelerisque orci faucibus ac. Maecenas tincidunt tincidunt dolor, eu hendrerit nulla pharetra at. Donec vel condimentum magna.</p>
+            </SectionContent>
             <SectionHighlight 
                 title="Lorem ipsum dolor sit"
                 content="Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi. Mauris fermentum ultrices nunc, vitae scelerisque orci faucibus ac. Maecenas tincidunt tincidunt dolor, eu hendrerit nulla pharetra at."

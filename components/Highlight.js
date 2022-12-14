@@ -6,7 +6,7 @@ import SectionHighlight from "@components/Section/SectionHighlight"
 const DATA = [
     {
       title: 'Highlight #1',
-      content: `Ipsum qui exercitation excepteur qui sint consectetur officia quis ex. 
+      content: `Ipsum qui exercitation excepteur qui sint consectetur officia quis ex.
       Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
       Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
       Ipsum dolor culpa dolor ea.`,
@@ -53,10 +53,12 @@ const Highlight = () => {
                 <SectionContent 
                     title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                     subheading = "Subheading"
-                    content = "Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi."
                     alignment = {alignment}
                     isBigHeader = {false}
-                />
+                >
+                  <p>Ipsum qui exercitation excepteur qui sint consectetur officia quis ex. </p>
+                  <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
+                </SectionContent>
                 <ButtonGroup 
                     wrap = "wrap wrap-px"
                     hasPrimary = {true}

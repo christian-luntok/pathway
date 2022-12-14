@@ -8,9 +8,10 @@ const CallToAction = () => {
             <div className="cta-content-container wrap wrap-px">
                 <SectionContent 
                     title = "Lorem 1,000+ Ipsum Title"
-                    content = "Duis malesuada faucibus est. Ut pulvinar gravida sapien sed efficitur."
                     alignment = "center"
-                />
+                >
+                    <p>Duis malesuada faucibus est. Ut pulvinar gravida sapien sed efficitur.</p>
+                </SectionContent>
                 <SubscribeForm
                     alignment = "center"
                 />

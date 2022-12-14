@@ -15,9 +15,10 @@ const Pricing = () => {
             <div className="content-container my-6 sm:my-24">
                 <SectionContent 
                     title = "Pricing"
-                    content = "Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi."
                     alignment = "left"
-                />
+                >
+                    <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
+                </SectionContent>
                 <ButtonGroup 
                     wrap = "wrap-sm wrap-px"
                     hasPrimary = {true}
