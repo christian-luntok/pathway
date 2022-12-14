@@ -9,7 +9,7 @@ const SectionContent = ({children, title, subheading, alignment, isBigHeader, ha
         ? 'md:text-right md:justify-end ml-auto' : null;
     return (
         <section className = {`section-content-container wrap wrap-px`}>
-            <div className={`section-content text-center ${hasBlockPadding ? 'my-6 sm:my-24' : '' } ${ alignClass ? alignClass : '' }`}>
+            <div className={`section-content text-center ${hasBlockPadding && 'my-6 sm:my-24' } ${ alignClass && alignClass }`}>
                 <SectionTitle 
                     title = {title}
                     subheading = {subheading}

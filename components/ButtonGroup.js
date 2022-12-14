@@ -31,27 +31,27 @@ const ButtonGroup = ({wrap, alignment, hasPrimary, hasSecondary, primaryText, pr
         ? 'justify-end ml-auto' : null;
     return ( 
         <div className="button-container">
-            <div className={`buttons ${wrap} gap-4 mt-6 flex flex-wrap ${ alignClass ? alignClass : '' }`}>
+            <div className={`buttons ${wrap} gap-4 mt-6 flex flex-wrap ${ alignClass && alignClass}`}>
                 {
-                    hasPrimary ? (
+                    hasPrimary && (
                         <PrimaryButton 
                             text={ primaryText ? primaryText : '' }
                             link={ primaryLink ? primaryLink : '' }
                             icon={ primaryIcon ? primaryIcon : '' }
                             type={ primaryType ? primaryType : '' }
                         />
-                    ) : null
+                    )
                 }
                 
                 {
-                    hasSecondary ? (
+                    hasSecondary && (
                         <SecondaryButton 
                             text={ secondaryText ? secondaryText : '' }
                             link={ secondaryLink ? secondaryLink : '' }
                             icon={ secondaryIcon ? secondaryIcon : '' }
                             type={ secondaryType ? secondaryType : '' }
                         />
-                    ) : null
+                    )
                 }
             </div>
         </div>

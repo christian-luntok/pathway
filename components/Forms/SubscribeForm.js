@@ -16,7 +16,7 @@ const SubscribeForm = ({alignment}) => {
 
     return(
         <div className="form-container">
-            <form className={`flex flex-wrap gap-4 text-center justify-center ${ alignClass ? alignClass : '' }`} onSubmit={handleSubmit}>
+            <form className={`flex flex-wrap gap-4 text-center justify-center ${ alignClass && alignClass }`} onSubmit={handleSubmit}>
                 <div className="relative rounded-full md:max-w-[320px] w-full border-2 border-gray-300 text-black/60 py-2 px-4">
                     <input 
                         className="form-input placeholder-black/60 bg-transparent w-full pl-8 focus-visible:border-0 focus-visible:outline-none" 

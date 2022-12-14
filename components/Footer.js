@@ -57,9 +57,9 @@ const Footer = () => {
                                         <a className="font-medium block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
                                             {item.label}
                                             {
-                                                item.isNew ? (
+                                                item.isNew && (
                                                     <span className="text-badgeText text-sm font-medium inline-block ml-2 bg-badge px-2 rounded-2xl">New</span>
-                                                ) : null
+                                                )
                                             }
                                         </a>
                                     </li>
@@ -73,9 +73,9 @@ const Footer = () => {
                                         <a className="font-medium block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
                                             {item.label}
                                             {
-                                                item.isNew ? (
+                                                item.isNew && (
                                                     <span className="text-badgeText text-sm inline-block ml-2 bg-badge px-2 rounded-2xl">New</span>
-                                                ) : null
+                                                )
                                             }
                                         </a>
                                     </li>

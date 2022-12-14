@@ -12,6 +12,7 @@ const SectionContent = ({content, title, subheading, icon, isBigHeader, isRevers
                     isBigHeader = {false}
                     icon = {icon}
                 />
+                {/* <div className="content-container text-black/60" dangerouslySetInnerHTML={{__html: content}} /> */}
                 <div className="content-container text-black/60">
                     <p>{content}</p>
                 </div>

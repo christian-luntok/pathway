@@ -14,8 +14,8 @@ const BadgeGroup = ({alignment, context, message, icon, link}) =>  {
         ? 'text-right ml-auto' : null;
     
     return (
-        <section className={`badge-group-container wrap wrap-px ${ alignClass ? alignClass : null }`}>
-            <Element href={link ? link : undefined} className={`font-medium text-badgeText badge-group p-1 w-auto rounded-full bg-badge inline-flex items-center gap-3 mb-8 ${link ? 'hover:bg-secondary-200 transition-all duration-300' : '' }`}>
+        <section className={`badge-group-container wrap wrap-px ${ alignClass && alignClass }`}>
+            <Element href={link && link} className={`font-medium text-badgeText badge-group p-1 w-auto rounded-full bg-badge inline-flex items-center gap-3 mb-8 ${link && 'hover:bg-secondary-200 transition-all duration-300'}`}>
                 <div className="context px-2 py-[2px] bg-white rounded-full">
                     {context}
                 </div>
