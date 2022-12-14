@@ -12,10 +12,9 @@ const PrimaryButton = ({text, icon, link, type}) => {
         >
             { text }
             {
-                    icon?.length > 0 
-                    ? (
+                    icon?.length && (
                         <Icon icon={icon}/>    
-                    ) : null
+                    ) 
             }
         </Element>
     )
