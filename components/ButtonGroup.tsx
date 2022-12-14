@@ -35,10 +35,10 @@ const ButtonGroup = ({wrap, alignment, hasPrimary, hasSecondary, primaryText, pr
                 {
                     hasPrimary && (
                         <PrimaryButton 
-                            text={ primaryText ? primaryText : '' }
-                            link={ primaryLink ? primaryLink : '' }
-                            icon={ primaryIcon ? primaryIcon : '' }
-                            type={ primaryType ? primaryType : '' }
+                            text={ primaryText && primaryText }
+                            link={ primaryLink && primaryLink }
+                            icon={ primaryIcon && primaryIcon }
+                            type={ primaryType && primaryType }
                         />
                     )
                 }
@@ -46,10 +46,10 @@ const ButtonGroup = ({wrap, alignment, hasPrimary, hasSecondary, primaryText, pr
                 {
                     hasSecondary && (
                         <SecondaryButton 
-                            text={ secondaryText ? secondaryText : '' }
-                            link={ secondaryLink ? secondaryLink : '' }
-                            icon={ secondaryIcon ? secondaryIcon : '' }
-                            type={ secondaryType ? secondaryType : '' }
+                            text={ secondaryText && secondaryText }
+                            link={ secondaryLink && secondaryLink }
+                            icon={ secondaryIcon && secondaryIcon }
+                            type={ secondaryType && secondaryType }
                         />
                     )
                 }
