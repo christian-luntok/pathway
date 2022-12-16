@@ -1,6 +1,7 @@
 import SectionIconContent from "@components/Section/SectionIconContent"
 import ButtonGroup from "@components/ButtonGroup"
 import Image from "next/image"
+import Button, { ButtonVariant } from "@components/Button/Button"
 
 type SectionHighlightProps = {
     title?: string
@@ -40,12 +41,9 @@ const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, l
                     />
                     { 
                         link && (
-                            <ButtonGroup 
-                            wrap = "wrap-sm"
-                            hasPrimary = {true}
-                            primaryText = {linkTitle}
-                            primaryLink = {link}
-                            />
+                            <ButtonGroup className = "wrap-sm">
+                                <Button text={linkTitle} link={link} variant={ButtonVariant.primary}/>
+                            </ButtonGroup>
                         ) 
                     }
                 </div>
