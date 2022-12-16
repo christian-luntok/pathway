@@ -1,7 +1,12 @@
 import Head from "next/head"
 
+type SEOProps = {
+    title?: string
+    description?: string
+    keywords?: string
+}
 
-const SEO = ({title, description, keywords }) => {
+const SEO = ({title, description, keywords }: SEOProps) => {
     // Cuztomize Meta Properties
     // Can create extra props and pass as arguments like title in case you want to change for each page.
     const metaDescription = description ? description : process.env.siteDescription
