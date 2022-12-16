@@ -1,11 +1,10 @@
 type ButtonGroupProps = {
     className?: string
-    hasPrimary?: boolean
-    hasSecondary?: boolean
     alignment?: string
+    children: React.ReactNode
 }
 
-const ButtonGroup = ({className, alignment, children}: any) => {
+const ButtonGroup = ({className, alignment, children}: ButtonGroupProps) => {
     const alignClass = alignment === 'center' 
         ? 'justify-center m-auto' : alignment === 'left' 
         ? 'justify-start mr-auto' : alignment === 'right' 

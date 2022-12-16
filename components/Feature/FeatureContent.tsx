@@ -1,7 +1,15 @@
 import Link from "next/link"
 import { Icon } from "@iconify/react"
 
-const FeatureContent = ({title, content, icon, link, linkTitle }) => {
+type FeatureContentProps = {
+    title: string
+    content: string
+    icon?: string   
+    link?: string
+    linkTitle?: string
+  }
+  
+const FeatureContent = ({title, content, icon, link, linkTitle }:FeatureContentProps) => {
 
     return(
         <div className="featured-content-item text-center md:text-left ">

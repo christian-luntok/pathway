@@ -1,8 +1,11 @@
 import { useState } from 'react'
 import { Icon } from '@iconify/react'
-import PrimaryButton from '@components/Button/PrimaryButton'
+import Button, { ButtonVariant } from '@components/Button/Button'
 
-const SubscribeForm = ({alignment}) => {
+type SubscribeFormProps = {
+    alignment?: string
+}
+const SubscribeForm = ( {alignment}:SubscribeFormProps ) => {
     const [email, setEmail] = useState('johndoe@email.com')
     const alignClass = alignment === 'center' 
     ? 'md:text-center md:justify-center m-auto' : alignment === 'left' 
@@ -31,7 +34,7 @@ const SubscribeForm = ({alignment}) => {
                     </div>
                 </div>
                 <div className="form-input w-full md:w-auto">
-                    <PrimaryButton className="w-full md:w-auto" text="Submit" link="/" type="button"/>
+                    <Button text="Submit" link="/" type="button" variant={ ButtonVariant.primary }/>
                 </div>
             </form>
         </div>
