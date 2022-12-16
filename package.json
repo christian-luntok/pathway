@@ -1,7 +1,25 @@
 {
   "name": "pathway",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "description": "Pathway - A NextJS Tailwind CSS SAAS Landing Page Starter",
+  "main": "index.tsx",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-luntok/pathway.git"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "react",
+    "reactjs",
+    "npx",
+    "tailwindcss",
+    "tailwind"
+  ],
+
+  "author": "Christian Luntok",
+  "homepage": "https://pathway-cl.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
