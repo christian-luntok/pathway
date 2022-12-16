@@ -20,7 +20,7 @@ const About = () => {
                 <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
             </SectionContent>
             <SectionImage 
-                classes="my-24"
+                className="my-24"
                 src="/images/Hero6.jpg"
                 alt="About Page Hero"
             />
