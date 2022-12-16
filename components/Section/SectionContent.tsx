@@ -1,8 +1,17 @@
 import SectionTitle from "@components/Section/SectionTitle"
 // You can get icons from iconify - just add the name on the Primary Button Props
 
+type SectionContentProps = {
+    title?: string
+    subheading?: string
+    icon?: string
+    alignment?: string
+    isBigHeader?: boolean
+    hasBlockPadding?: boolean
+    children?: React.ReactNode
+}
 
-const SectionContent = ({children, title, subheading, alignment, isBigHeader, hasBlockPadding, icon}) => {
+const SectionContent = ( {children, title, subheading, alignment, isBigHeader, hasBlockPadding, icon}:SectionContentProps ) => {
     const alignClass = alignment === 'center' 
         ? 'md:text-center md:justify-center m-auto' : alignment === 'left' 
         ? 'md:text-left md:justify-start mr-auto' : alignment === 'right' 

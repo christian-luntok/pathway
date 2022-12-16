@@ -2,7 +2,17 @@ import SectionIconContent from "@components/Section/SectionIconContent"
 import ButtonGroup from "@components/ButtonGroup"
 import Image from "next/image"
 
-const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, link, linkTitle }) => {
+type SectionHighlightProps = {
+    title?: string
+    content?: string 
+    icon?: string 
+    image?: string
+    imageAlt?: string
+    link?: string 
+    linkTitle?: string
+    isReversed?: boolean
+}
+const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, link, linkTitle }:SectionHighlightProps) => {
     return (
         <section className="highlight-content-container wrap wrap-px">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-16">
@@ -26,7 +36,6 @@ const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, l
                     <SectionIconContent 
                         title = {title}
                         icon = {icon}
-                        alignment = "left"
                         content = {content}
                     />
                     { 

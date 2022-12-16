@@ -1,6 +1,13 @@
 import { Icon } from "@iconify/react"
 
-const SectionTitle = ({title, subheading, isBigHeader, icon}) => {
+type SectionTitleProps = {
+    title: string
+    subheading?: string
+    isBigHeader?: boolean
+    icon?: string
+}
+
+const SectionTitle = ({title, subheading, isBigHeader, icon}:SectionTitleProps ) => {
     return (
         <section className="section-title-container">
             {
