@@ -29,7 +29,7 @@ const Pricing = () => {
                 />
             </div>
             <SectionImage 
-                classes="my-24"
+                className="my-24"
                 src="/images/Hero5.jpg"
                 alt="Pricing Page Hero"
             />
