@@ -17,7 +17,6 @@
     "tailwindcss",
     "tailwind"
   ],
-
   "author": "Christian Luntok",
   "homepage": "https://pathway-cl.vercel.app/",
   "scripts": {
