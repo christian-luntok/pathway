@@ -1,7 +1,7 @@
 import SectionContent from "@components/Section/SectionContent"
 import ButtonGroup from "@components/ButtonGroup"
 import SectionHighlight from "@components/Section/SectionHighlight"
-
+import Button, { ButtonVariant } from "@components/Button/Button"
 
 const DATA = [
     {
@@ -59,17 +59,10 @@ const Highlight = () => {
                   <p>Ipsum qui exercitation excepteur qui sint consectetur officia quis ex. </p>
                   <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
                 </SectionContent>
-                <ButtonGroup 
-                    wrap = "wrap wrap-px"
-                    hasPrimary = {true}
-                    primaryText = "About"
-                    primaryLink = "/about"
-                    primaryIcon = "ph:arrow-right-bold"
-                    hasSecondary = {true}
-                    secondaryText = "Company"
-                    secondaryLink = "/company"
-                    alignment={alignment}
-                />
+                <ButtonGroup className = "wrap wrap-px" alignment={alignment} >
+                    <Button variant={ButtonVariant.primary} text="About" link="/about" icon="ph:arrow-right-bold" />
+                    <Button variant={ButtonVariant.secondary} text="Company" link="/company" />
+                </ButtonGroup>
             </div>
             <div className="highlight-image-container">
                 {
