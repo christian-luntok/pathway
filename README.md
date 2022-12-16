@@ -36,7 +36,7 @@ If you want to deploy on Netlify, use the following build command under site set
 ```bash
 npm run build
 ```
-You also want to make sure the publish directory is out.
+<p>You also want to make sure the publish directory is out.</p>
 ---
 #### Getting Started
 
