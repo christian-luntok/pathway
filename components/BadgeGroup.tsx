@@ -6,7 +6,16 @@ import Link from "next/link"
  * 
  * @params alignment - sets where to align the component. Values can be set as [left, right or center]
  */
-const BadgeGroup = ({alignment, context, message, icon, link}) =>  {
+
+type BadgeGroupProps = {
+    className?: string
+    alignment?: string
+    message?: string
+    icon?: string
+    link?: string | 'div' | 'link'
+    children?: React.ReactNode
+}
+const BadgeGroup = ({alignment, message, icon, link, children}:BadgeGroupProps) =>  {
     const Element = link ? Link : 'div'
     const alignClass = alignment === 'center' 
         ? 'text-center m-auto' : alignment === 'left' 
@@ -16,15 +25,7 @@ const BadgeGroup = ({alignment, context, message, icon, link}) =>  {
     return (
         <section className={`badge-group-container wrap wrap-px ${ alignClass && alignClass }`}>
             <Element href={link && link} className={`font-medium text-badgeText badge-group p-1 w-auto rounded-full bg-badge inline-flex items-center gap-3 mb-8 ${link && 'hover:bg-secondary-200 transition-all duration-300'}`}>
-                <div className="context px-2 py-[2px] bg-white rounded-full">
-                    {context}
-                </div>
-                <div className="message">
-                    {message}
-                </div>
-                <div className="icon py-2 pr-2">
-                    <Icon icon={icon} className=" w-4 "/>
-                </div>
+                {children}
             </Element>
         </section>
     )
