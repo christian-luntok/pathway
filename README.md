@@ -1,7 +1,7 @@
-# Pathway - A NextJS Tailwind CSS SAAS Landing Page Starter
+## Pathway - A NextJS Tailwind CSS SAAS Landing Page Starter
 ### An awesome landing page template optimized for you get those clicks into sales!
 
-See Live Demo: [Demo Link](https://pathway-cl.vercel.app/)
+#### See Live Demo: <a href="https://pathway-cl.vercel.app/" target="_blank">[Demo Link]</a>
 --- 
 
 #### DOCUMENTATION
@@ -27,7 +27,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ---
 
-## Deploy your own
+#### Deploy your own
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example).
 
@@ -36,7 +36,6 @@ If you want to deploy on Netlify, use the following build command under site set
 ```bash
 npm run build
 ```
-
 You also want to make sure the publish directory is out.
 ---
 #### Getting Started
