@@ -1,5 +1,4 @@
-import PrimaryButton from '@components/Button/PrimaryButton'
-import SecondaryButton from '@components/Button/SecondaryButton'
+import Button, { ButtonVariant } from '@components/Button/Button'
 import Nav from '@components/Nav'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -25,13 +24,15 @@ const Header = () => {
                 </div>
                 <Nav />
                 <div className="button-container hidden md:flex flex-wrap gap-4 ml-auto">
-                    <PrimaryButton 
+                    <Button 
                         text="Sign Up"
                         link="/sign-up"
+                        variant={ButtonVariant.primary}
                     />
-                    <SecondaryButton 
+                    <Button 
                         text="Login"
                         link="/login"
+                        variant={ButtonVariant.secondary}
                     />
                 </div>
             </div>
