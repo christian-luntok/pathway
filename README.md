@@ -1,4 +1,4 @@
-# Pathway - A NextJS Tailwind CSS SAAS Landing Page
+# Pathway - A NextJS Tailwind CSS SAAS Landing Page Starter
 ### An awesome landing page template optimized for you get those clicks into sales!
 
 See Live Demo: [Demo Link](https://pathway-cl.vercel.app/)
@@ -26,9 +26,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ![Pathway Preview](https://github.com/christian-luntok/pathway/blob/main/public/pathway-0-1.png?raw=true)
 
 ---
+
+## Deploy your own
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+
+If you want to deploy on Netlify, use the following build command under site settings:
+
+```bash
+npm run build
+```
+
+You also want to make sure the publish directory is out.
+---
 #### Getting Started
 
-First, run the development server:
+Change into the project directory and run the following command:
+
 
 ```bash
 npm run dev
@@ -36,3 +50,27 @@ npm run dev
 yarn dev
 ```
 
+---
+#### Update Site Metadata
+
+```js
+env: {
+  siteTitle: 'Your Company',
+  siteDescription: 'Your company description.',
+  siteKeywords: 'your company keywords',
+  siteUrl: 'https://pathway-cl.vercel.app/',
+  siteImagePreviewUrl: '/images/preview.jpeg',
+  twitterHandle: '@your_handle'
+} 
+```
+---
+#### Update Colors
+
+You can update the colors in tailwind.config.js file.
+
+---
+#### Update Favicon
+
+Update the manifest.json file and the icons under the public/images/icons folder.
+
+You can use free tools online such as https://realfavicongenerator.net/ to quickly generate all the different icon sizes and favicon.ico file.
