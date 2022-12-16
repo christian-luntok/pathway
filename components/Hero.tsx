@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="hero-content-container py-16 ">
                 <BadgeGroup alignment={alignment}>
                     <BadgeContext>
-                        <span>V0.1</span>
+                        <span>V0.2</span>
                     </BadgeContext>
                     <BadgeMessage>
                         Welcome to Pathway!

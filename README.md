@@ -5,22 +5,19 @@ See Live Demo: [Demo Link](https://pathway-cl.vercel.app/)
 --- 
 
 #### DOCUMENTATION
-* Version: 0.1
+* Version: 0.2
 * Created: 07 Dec 2022
-* Last update: 07 Dec 2022
+* Last update: 16 Dec 2022
 
 ---
-<!-- * NextJS + Tailwind CSS
-* Headless UI Components to ensure accessibility and best practices
+* NextJS + Tailwind CSS
 * Conversion Optimized
-* Lightning Fast
+* Blazingly Fast
 * Mobile Responsive
 * 20+ Components
-* 6 Pages: Landing, About, Use Case, Company, Pricing
 * SEO setup: meta tags, twitter/facebook open graph - image preview, etc.
 
-You can easiliy make use of the components and customize the code to mix and match to suit your needs. -->
-
+You can easily make use of the components and customize the code to mix and match to suit your needs.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
