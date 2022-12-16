@@ -1,5 +1,5 @@
 import LogoItems from "@components/Logos/LogoItems"
-
+import LogoContainer from "@components/Logos/LogoContainer"
 const DATA = [
     {
         title: "slack",
@@ -42,15 +42,17 @@ const Logos = () => {
                 <div className="content-container text-black/60 text-center">
                     <p>Trusted and used by over 624 companies.</p>
                 </div>
-                {
-                    DATA.map((item,index) => (
-                        <LogoItems 
-                            logo={item.logo} 
-                            title={item.title} 
-                            key={index}
-                        />
-                    ))
-                }
+                <LogoContainer>
+                    {
+                        DATA.map((item,index) => (
+                            <LogoItems 
+                                logo={item.logo} 
+                                title={item.title} 
+                                key={index}
+                            />
+                        ))
+                    }
+                </LogoContainer>
             </div>
         </section>
     )
