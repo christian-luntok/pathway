@@ -42,7 +42,15 @@ const Logos = () => {
                 <div className="content-container text-black/60 text-center">
                     <p>Trusted and used by over 624 companies.</p>
                 </div>
-                <LogoItems logos={DATA} />
+                {
+                    DATA.map((item,index) => (
+                        <LogoItems 
+                            logo={item.logo} 
+                            title={item.title} 
+                            key={index}
+                        />
+                    ))
+                }
             </div>
         </section>
     )
