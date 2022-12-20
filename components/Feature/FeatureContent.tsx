@@ -27,7 +27,7 @@ const FeatureContent = ({title, content, icon, link, linkTitle }:FeatureContentP
                     link && (
                         <Link 
                             href={link}
-                            className="text-[#94A3B8] hover:text-primary-400 block mt-4 transition-all duration-300"
+                            className="text-[#94A3B8] hover:text-primary-400 block mt-4 transition-colors duration-300"
                         >
                             {linkTitle}
                         </Link>

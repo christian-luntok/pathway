@@ -52,7 +52,7 @@ const Nav = () => {
                   passHref
                   key={item.name}
                   href={item.href}
-                  className={` block py-2 pl-3 pr-4 transition-all duration-300 rounded md:bg-transparent md:text-black md:hover:text-primary-500 md:p-0 md:p-0
+                  className={` block py-2 pl-3 pr-4 transition-colors duration-300 rounded md:bg-transparent md:text-black md:hover:text-primary-500 md:p-0 md:p-0
                     ${router.pathname === item.href
                       ? "text-white bg-primary-700 "
                       : "text-black"

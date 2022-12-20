@@ -54,7 +54,7 @@ const Footer = () => {
                             <ul>
                             {DATA.slice(0, DATA.length / 2).map( item => (
                                     <li key={item.label} className="gap-2">
-                                        <a className="font-medium block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
+                                        <a className="font-medium block w-auto mb-2 hover:text-primary-500 transition-colors duration-300" href={item.href}>
                                             {item.label}
                                             {
                                                 item.isNew && (
@@ -70,7 +70,7 @@ const Footer = () => {
                             <ul>
                             {DATA.slice(DATA.length / 2).map( item => (
                                     <li key={item.label} className="gap-2">
-                                        <a className="font-medium block w-auto mb-2 hover:text-primary-500 transition-all duration-300" href={item.href}>
+                                        <a className="font-medium block w-auto mb-2 hover:text-primary-500 transition-colors duration-300" href={item.href}>
                                             {item.label}
                                             {
                                                 item.isNew && (
@@ -84,7 +84,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-credits text-black/60">
-                        <p>© {year}. All rights reserved. <span className="font-semibold">Pathway by <Link className="hover:text-primary-500 transition-all duration-300" href="https://cjluntok.com" target="_blank">cjluntok.com</Link></span></p>
+                        <p>© {year}. All rights reserved. <span className="font-semibold">Pathway by <Link className="hover:text-primary-500 transition-colors duration-300" href="https://cjluntok.com" target="_blank">cjluntok.com</Link></span></p>
                     </div>
                 </div>
             </section>
