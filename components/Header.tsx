@@ -26,12 +26,12 @@ const Header = () => {
                 <div className="button-container hidden md:flex flex-wrap gap-4 ml-auto">
                     <Button 
                         text="Sign Up"
-                        link="/sign-up"
+                        link="#"
                         variant={ButtonVariant.primary}
                     />
                     <Button 
                         text="Login"
-                        link="/login"
+                        link="#n"
                         variant={ButtonVariant.secondary}
                     />
                 </div>
