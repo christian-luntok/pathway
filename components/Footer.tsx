@@ -23,7 +23,7 @@ const DATA = [
     },
     { 
         label: 'Projects', 
-        href: '/projects',
+        href: '#',
         isNew: true
     },
     {
@@ -84,7 +84,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-credits text-black/60">
-                        <p>© {year}. All rights reserved. <span className="font-semibold">Pathway by <Link className="hover:text-primary-500 transition-colors duration-300" href="https://cjluntok.com" target="_blank">cjluntok.com</Link></span></p>
+                        <p>© {year} - Pathway. All rights reserved. <span className="font-semibold">Pathway by <Link className="hover:text-primary-500 transition-colors duration-300" href="https://cjluntok.com" target="_blank">cjluntok.com</Link></span></p>
                     </div>
                 </div>
             </section>
