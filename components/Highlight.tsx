@@ -51,7 +51,7 @@ const Highlight = () => {
         <section className="highlight-container my-24">
             <div className="highlight-content mb-16">
                 <SectionContent 
-                    title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    title = "An awesome landing page template optimized for you get those clicks into sales!"
                     subheading = "Subheading"
                     alignment = {alignment}
                     isBigHeader = {false}

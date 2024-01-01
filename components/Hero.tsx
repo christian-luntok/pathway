@@ -14,15 +14,15 @@ const Hero = () => {
             <div className="hero-content-container py-16 ">
                 <BadgeGroup alignment={alignment}>
                     <BadgeContext>
-                        <span>V0.2</span>
+                        <span>V1.0.0</span>
                     </BadgeContext>
                     <BadgeMessage>
                         Welcome to Pathway!
                     </BadgeMessage>
-                    <BadgeIcon icon="mdi:map-marker-path"/>
+                    <BadgeIcon icon="eos-icons:templates"/>
                 </BadgeGroup>
                 <SectionContent 
-                    title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    title = "An awesome landing page template optimized for you get those clicks into sales!"
                     alignment = {alignment}
                     isBigHeader = {true}
                 >
