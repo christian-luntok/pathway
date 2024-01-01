@@ -18,7 +18,7 @@ const Pricing = () => {
                     <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
                 </SectionContent>
                 <ButtonGroup className = "wrap-sm wrap-px" alignment="left">
-                    <Button text="See Prices" link="#prices" icon="ph:arrow-right-bold" variant={ButtonVariant.primary}/>
+                    <Button text="See Prices" link="/pricing" icon="ph:arrow-right-bold" variant={ButtonVariant.primary}/>
                 </ButtonGroup>
             </div>
             <SectionImage 

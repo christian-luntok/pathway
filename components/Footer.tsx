@@ -28,15 +28,15 @@ const DATA = [
     },
     {
         label: 'Email',
-        href: 'mailto:hey@cjluntok.com'
+        href: 'mailto:hey@pathway.com'
     },
     {
         label: 'Instagram',
-        href: 'https://www.instagram.com/'
+        href: 'https://github.com/christian-luntok/pathway'
     },
     {
         label: 'Twitter',
-        href: 'https://twitter.com/'
+        href: 'https://github.com/christian-luntok/pathway'
     }
 ]
 
@@ -84,7 +84,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-credits text-black/60">
-                        <p>© {year} - Pathway. All rights reserved. <span className="font-semibold">Pathway by <Link className="hover:text-primary-500 transition-colors duration-300" href="https://cjluntok.com" target="_blank">cjluntok.com</Link></span></p>
+                        <p>© 2022 - {year} - Pathway. All rights reserved. <span className="font-semibold">Pathway by <Link className="hover:text-primary-500 transition-colors duration-300" href="https://chrstnl.com" target="_blank">chrstnl.</Link></span></p>
                     </div>
                 </div>
             </section>
