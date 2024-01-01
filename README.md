@@ -1,13 +1,13 @@
 ## Pathway - A NextJS Tailwind CSS SAAS Landing Page Starter
 ### An awesome landing page template optimized for you get those clicks into sales!
 
-#### See Live Demo: <a href="https://pathway-cl.vercel.app/" target="_blank">[Demo Link]</a>
+#### See Live Demo: <a href="https://pathway.chrstnl.com/" target="_blank">[Demo Link]</a>
 --- 
 
 #### DOCUMENTATION
-* Version: 0.2
+* Version: 1.0.0
 * Created: 07 Dec 2022
-* Last update: 16 Dec 2022
+* Last update: 01 Jan 2024
 
 ---
 * NextJS + Tailwind CSS
@@ -58,7 +58,7 @@ env: {
   siteTitle: 'Your Company',
   siteDescription: 'Your company description.',
   siteKeywords: 'your company keywords',
-  siteUrl: 'https://pathway-cl.vercel.app/',
+  siteUrl: 'https://pathway.chrstnl.com/',
   siteImagePreviewUrl: '/images/preview.jpeg',
   twitterHandle: '@your_handle'
 } 

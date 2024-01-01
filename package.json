@@ -1,6 +1,6 @@
 {
   "name": "pathway",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Pathway - A NextJS Tailwind CSS SAAS Landing Page Starter",
   "main": "index.tsx",
   "private": true,
@@ -17,8 +17,8 @@
     "tailwindcss",
     "tailwind"
   ],
-  "author": "Christian Luntok",
-  "homepage": "https://pathway-cl.vercel.app/",
+  "author": "chrstnl",
+  "homepage": "https://pathway.chrstnl.com/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
